@@ -10,7 +10,7 @@ function App() {
   const [showAddTask, setShowAddTask] = useState(false)
   const [tasks, setTasks] = useState([])
 
-  const URL = 'http://localhost:5000/tasks';
+  const URL = 'https://your-task-tracker.herokuapp.com/tasks';
 
   useEffect(() => {
     const getTasks = async () => {
